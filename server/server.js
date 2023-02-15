@@ -2,6 +2,10 @@ import { ApolloServer, gql } from 'apollo-server'
 
 // GraphQL Schema
 const typeDefs = gql`
+  schema {
+    query: Query
+  }
+
   type Query {
     greeting: String
   }
