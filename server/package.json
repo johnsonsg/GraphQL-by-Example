@@ -1,0 +1,13 @@
+{
+  "name": "hello-world-server",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "repository": "git@github.com:johnsonsg/GraphQL-by-Example.git",
+  "author": "Shawn Johnson <johnson.sg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0"
+  }
+}
